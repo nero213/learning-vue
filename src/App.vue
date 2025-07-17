@@ -8,7 +8,7 @@ export default{
   },
   methods:{
     toggleUsername() {
-      this.showusername = !this.showusername;
+      this.showusername = this.showusername;
     }
     
   }
@@ -22,7 +22,7 @@ export default{
   <button @click="toggleUsername">Toggle Username</button>
   <p v-if="showusername">Your username is: {{ username }}</p>
   <p v-else>Your username is hidden</p>
-  
+    
 
  </div>
 
