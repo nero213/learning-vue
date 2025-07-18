@@ -1,7 +1,8 @@
 <template>
     <nav class="nav">
-        <Mybrand />
         <!-- Mybrand component is imported and used here -->
+        <Mybrand />
+        
          <!-- Navigation links -->
         <ul class="navlink"> 
             <li><a href="#">Home</a></li>
@@ -31,8 +32,8 @@ export default{
     justify-content: space-between; /* pushes first and last items to ends */
     align-items: center;
     flex-wrap: nowrap;
-    padding: 1.2rem;
-    background-color: #333;
+    padding: 0.3rem;
+    background-color: #1a382a;
     
 
 }
@@ -58,7 +59,23 @@ export default{
    
 }
 .btn{
-    margin-left: 0.7rem;
+    all: unset;
+    margin-left: 0.5rem;
+    gap: 1rem;
+    height: 1rem;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    background-color: #1a382a;
+    color: #fff;
+    transition: 0.3s ease-in-out all;
+ 
+}
+.btn:hover{
+    background-color: #fff;
+    color: #1a382a;
+    cursor: pointer;
+    transform: scale(1.05);
 }
 
 
