@@ -1,7 +1,7 @@
 <template>
     <div class="container">
     <img :src="icon" alt="Brand Icon" class="brand-icon" />
-    <div class="mybrand">my Brand logo</div>
+    <div class="mybrand">my Brand </div>
 
     </div>
    
